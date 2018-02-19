@@ -9,7 +9,7 @@ AirConnect can run on any machine that has access to your local network (Windows
 
 ## Installing
 
-1. Pre-built binaries are in bin/ directory of this repository. Clone this repository using git, download a zip file, or go to the [bin/ folder in the web interface](https://github.com/philippe44/AirConnect/tree/master/bin) and download the version that matches your OS. It's also possible to download files manually in a terminal by typing `wget https://raw.githubusercontent.com/philippe44/AirConnect/master/bin/aircast-arm` (e.g. aircast arm version)
+1. Pre-built binaries are in bin/ directory of this repository. Clone this repository using git, download a zip file, or go to the [bin/ folder in the web interface](https://github.com/philippe44/AirConnect/tree/master/bin) and download the version that matches your OS. It's also possible to download files manually in a terminal by typing `wget https://raw.githubusercontent.com/philippe44/AirConnect/master/bin/aircast-arm` (e.g. aircast arm version). For easier downloads, you can also find it here (https://sourceforge.net/projects/aircast-airupnp/)
 
 * For **Chromecast**, the file is `aircast-[platform]` (so `aircast-osx-multi` for Chromecast on OS X.) 
 * For **UPnP/Sonos**, the file is `airupnp-[platform]` (so `airupnp-osx-multi` for UPnP/Sonos on OS X.) 
