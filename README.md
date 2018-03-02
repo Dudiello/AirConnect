@@ -91,7 +91,7 @@ To start or stop manually the service, type `sudo service airupnp start|stop` in
 
 ## Synology installation
 
-Andras has made a nice package for automatic installation & laucnh of airupnp on Syno's
+Andras has made a nice package for automatic installation & launch of airupnp on Syno's
 
 https://github.com/bandesz/AirConnect-Synology
 
