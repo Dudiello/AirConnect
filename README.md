@@ -30,7 +30,11 @@ Double click the [executable] or launch it by typing `./[executable]` in the sam
 
 You should start to see lots of log messages on screen. Using your iOS/Mac/iTunes/Airfoil/other client, you should now see new AirPlay devices and can try to play audio to them. 
 
-If it works, type `exit`, which terminates the executable, and then, on non-Windows/MacOS machines, relaunch it with `-z` so that it can run in the background and you can close the command line window. You can also start it automatically using any startup script or a a Linux service as explained below. Nothing else should be required, no library or anything to install.
+If it works, type `exit`, which terminates the [executable], and then, on non-Windows/MacOS machines, relaunch it with `-z` so that it can run in the background and you can close the command line window. You can also start it automatically using any startup script or a Linux service as explained below. On MacOS, you must either leave the terminal window open or make the [executable] run as a background process by typing `./[executable] -Z &`. On Windows, leave the terminal window open or find a way to launch the [executable] as a schedule task at startup (there are other options, Google is your best friend here)
+
+<strong>if you terminate the [executable] and don't use any of the above options to leave it running, then the AirPlay targets will immediately disappear</strong>
+
+Nothing else should be required, no library or anything to install.
 
 ## Common information:
 
